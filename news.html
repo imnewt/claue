@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>News</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/216cd63880.js"></script>
+		<link rel="stylesheet" type="text/css" href="news-st.css">
+
+		<link rel="stylesheet" href="./owl/owl.carousel.min.css">
+		<link rel="stylesheet" href="./owl/owl.theme.default.min.css">
+	</head>
+	<body>
+		<div class="news container">
+			<div class="tp-heading text-center">
+				<h4 class="tp-title d-inline-block position-relative">LASTEST FROM BLOG</h4>
+				<div class="tp-about text-secondary font-italic">The freshest and most exciting news</div>
+			</div>
+			<div class="n-carousel position-relative pt-4">
+				<div class="owl-carousel n-owl-carousel">
+					<div class="n-ca-item n-ca-item-1">
+						<a href="#">
+							<img src="http://themes.magesolution.com/claue/m2/pub/media/mgs_blog/t/h/thumbnail_10.jpg">
+						</a>
+						<div class="n-name font-weight-bold pt-3">
+							<a class="text-black transition" href="#">Amet Consectetur Adipisicing</a>
+						</div>
+						<div class="n-by text-secondary pt-2">By <span class="text-black">admin</span> on <span class="text-black">Mar 17, 2017</span></div>
+						<div class="n-about text-secondary pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliq...</div>
+				  	</div>
+					<div class="n-ca-item n-ca-item-2">
+						<a href="#">
+							<img src="http://themes.magesolution.com/claue/m2/pub/media/mgs_blog/t/h/thumbnail_9.jpg">
+						</a>
+						<div class="n-name font-weight-bold pt-3">
+							<a class="text-black transition" href="#">Victoria's Secret Fashion Show</a>
+						</div>
+						<div class="n-by text-secondary pt-2">By <span class="text-black">admin</span> on <span class="text-black">Mar 17, 2017</span></div>
+						<div class="n-about text-secondary pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliq...</div>
+				  	</div>
+					<div class="n-ca-item n-ca-item-3">
+						<a href="#">
+							<img src="http://themes.magesolution.com/claue/m2/pub/media/mgs_blog/t/h/thumbnail_7.jpg">
+						</a>
+						<div class="n-name font-weight-bold pt-3">
+							<a class="text-black transition" href="#">Milan Woman Fashion Week 2017</a>
+						</div>
+						<div class="n-by text-secondary pt-2">By <span class="text-black">admin</span> on <span class="text-black">Mar 14, 2017</span></div>
+						<div class="n-about text-secondary pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliq...</div>
+				  	</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<script src="./owl/jquery.min.js"></script>
+		<script src="./owl/owl.carousel.min.js"></script>
+		<script type="text/javascript">
+			$('.n-owl-carousel').owlCarousel({
+			    loop:false,
+			    margin:25,
+			    nav:false,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        768:{
+			        	items:2
+			        },
+			        992:{
+			        	items:3
+			        }
+			    }
+			});
+		</script>
+	</body>
+</html>
