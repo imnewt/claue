@@ -1,0 +1,57 @@
+a:link {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.transition {
+	transition: all .3s;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.news {
+	padding-top: 2rem;
+}
+
+.text-black {
+	color: #000;
+}
+
+.tp-title:before, .tp-title:after {
+	position: absolute;
+    content: "";
+    width: 60px;
+    height: 2px;
+    background: #000;
+    top: 53%;
+}
+
+.tp-title:before {
+	left: -75px;
+}
+
+.tp-title:after {
+	right: -75px;
+}
+
+.tp-about {
+	font-family: serif;
+}
+
+.n-name {
+	font-size: 1.1rem;
+}
+
+.n-name a:hover {
+	color: #56cfe1;
+}
+
+.n-by, .n-about {
+	font-size: .9rem;
+}
