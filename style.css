@@ -1266,6 +1266,7 @@ ul {
 	outline: none;
 	padding: 8px 10px;
 	border-radius: 50px;
+	width: 100%;
 }
 
 .footer-input-mail::placeholder {
