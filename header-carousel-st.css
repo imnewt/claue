@@ -1,0 +1,63 @@
+.header-carousel {
+	height: 45rem;
+}
+
+.oc-main {
+	text-align: center;
+	width: 35rem;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	margin-top: -8%;
+	margin-left: -18rem;
+}
+
+.oc-animation {
+	animation-name: oc-animate;
+	animation-duration: 2s;
+}
+
+@keyframes oc-animate {
+	from {transform: scale(1.5); opacity: 0;}
+	to {transform: scale(1); opacity: 1;}
+}
+
+.oc-time {
+	font-family: serif;
+	font-size: 1.5rem;
+}
+
+.oc-title {
+	font-size: 3.2rem;
+}
+
+.oc-link-btn {
+	border: 2px solid #fff;
+	border-radius: 999px;
+	padding: 8px 30px;
+}
+
+.oc-link-btn:hover {
+	background-color: #56cfe1;
+}
+
+.ca-item {
+	height: 100vh;
+}
+
+.ca-item-1 {
+	background-image: url('http://themes.magesolution.com/claue/m2/pub/media/wysiwyg/slider/slider_furniture1.jpg');
+}
+
+.ca-item-2 {
+	background-image: url('http://themes.magesolution.com/claue/m2/pub/media/wysiwyg/slider/slider_furniture2.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+	.oc-title {
+		font-size: 1.2rem;
+	}
+	.oc-link-btn {
+		font-size: .8rem;
+	}
+}
